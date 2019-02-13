@@ -1,0 +1,169 @@
+html , body{
+    height: 100%;
+}
+#wrapper{
+    width: 100%;
+    min-height: 100%;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+#main_wrapper{
+    min-height: 548px;
+    margin-top: 45px;
+}
+.icon_user{
+    background: url(../images/img/icon_user.png);
+}
+.main{
+    width: 854px;
+    min-height: 548px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.main .caption , .main .register_logo{
+    text-align: center;
+}
+.main .register_logo p{
+    width: 49px;
+    height: 48px;
+    background: url(../images/img/milogo.png) center;
+    margin: 0 auto;
+    font-size: 30px;
+}
+.main .caption{
+    margin: 40px 0;
+}
+.main .menu{
+    width:332px;
+    margin: 0 auto;
+    padding-bottom: 42px;
+}
+.main .menu .headline , .main .menu .hint{
+    font-size: 12px;
+}
+.main .menu .country .input_box{
+    width:332px;
+    height: 40px;
+    border: solid 1px #e8e8e8;
+    position: relative;
+    cursor: pointer;
+    margin: 8px 0;
+}
+.main .menu .country .text{
+    width: 274px;
+    height: 40px;
+    line-height: 40px;
+    border-right: solid 1px #e8e8e8;
+    position: absolute;
+    left: 14px;
+}
+.main .menu .country i{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 12px;
+    top: 12px;
+}
+.main .menu .telephone{
+    margin-top: 20px;
+}
+.main .menu .telephone .input_box{
+    width:332px;
+    height: 40px;
+    border: solid 1px #e8e8e8;
+    position: relative;
+    cursor: pointer;
+    margin: 8px 0;
+}
+.main .menu .telephone .input_box input{
+    width: 266px;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+    border-left: solid 1px #e8e8e8;
+    position: absolute;
+    padding-left: 8px;
+    right: 0;
+}
+.main .menu .telephone .input_box p{
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    left: 10px;
+}
+/* .main .menu .telephone .input_box p .up{
+   
+} */
+.main .menu .telephone .error{
+    height: 16px;
+    margin-bottom: 8px;
+}
+.main .menu .telephone .error p{
+    display: none;
+}
+.exclamation_mark{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-position: -49px 0;
+    margin-right: 4px;
+}
+.main .menu .but button{
+    width: 330px;
+    height: 42px;
+    border: 0;
+    background-color: #ff6700;
+    color: #ffffff;
+}
+.main .privacy_box{
+    text-align: center;
+    padding-top: 42px;
+}
+.main .privacy_box .lab{
+    cursor: pointer;
+    color: #9d9d9d;
+    padding: 10px 0;
+}
+.main .privacy_box .lab .check{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-position: -17px 0;
+    margin-bottom: -2px;
+}
+.main .privacy_box .lab a{
+    color: #000000;
+}
+#footer_wrapper{
+    margin-top: 38px;
+    margin-bottom: 28px;
+}
+.footer{
+    height: 80px;
+    text-align: center;
+}
+.footer .footer_top{
+    text-align: center;
+    padding: 20px 0;
+}
+.footer .footer_top li{
+    display: inline-block;
+}
+.footer .footer_top li a{
+    color: #757575;
+}
+.footer .footer_top li .Simplified{
+    color: #000000;
+}
+.footer .footer_bottom .adders{
+    color: #9d9d9d;
+}
+.footer .footer_bottom .adders a{
+    color: #9d9d9d;
+}
+.footer .footer_bottom .adders span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/img/ghs.png) center no-repeat;
+}
