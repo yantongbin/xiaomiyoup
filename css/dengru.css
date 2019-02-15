@@ -1,6 +1,9 @@
 html , body{
     height: 100%;
 }
+.icon{
+    background: url(../images/img/sprite_login.gif);
+}
 #wrapper{
     width: 100%;
     min-height: 100%;
@@ -16,9 +19,14 @@ html , body{
     min-height: 548px;
     margin: 0 auto;
     background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
 }
 .main .caption , .main .register_logo{
     text-align: center;
+}
+.main .register_logo{
+    margin-top:50px; 
 }
 .main .register_logo p{
     width: 49px;
@@ -30,6 +38,48 @@ html , body{
 .main .caption{
     margin: 40px 0;
 }
+.main .main_from{
+    text-align: center;
+}
+.main .main_from input{
+    width: 356px;
+    height: 48px;
+    border: 0;
+    border: solid 1px #e0e0e0;
+    padding-left: 14px;
+    box-sizing: border-box;
+}
+.main .main_from #pwd{
+    margin-top: 14px;
+}
+.main .main_from .input_click{
+    border: solid 1px #f56700;
+}
+.main .main_from .form_hint{
+    min-width: 68px;
+    height: 14px;
+    margin: 18px 0;
+}
+.main .main_from .btn{
+    width: 358px;
+    height: 50px;
+    border: 0;
+    background-color: #ef5b00;
+    color: #ffffff;
+}
+.main .main_code .code{
+    display: block;
+    width: 68px;
+    height: 68px;
+    background-position: 0 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.main .main_hint{
+    text-align: center;
+}
+
 #footer_wrapper{
     margin-top: 10px;
     margin-bottom: 28px;
