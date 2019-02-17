@@ -2,7 +2,7 @@ html , body{
     height: 100%;
 }
 .icon{
-    background: url(../images/img/sprite_login.gif);
+    background: url(../images/img/sprite_login.gif) no-repeat center;
 }
 #wrapper{
     width: 100%;
@@ -39,7 +39,8 @@ html , body{
     margin: 40px 0;
 }
 .main .main_from{
-    text-align: center;
+    width: 358px;
+    margin: 0 auto;
 }
 .main .main_from input{
     width: 356px;
@@ -77,7 +78,81 @@ html , body{
     top: 0;
 }
 .main .main_hint{
+    width: 358px;
+    margin: 14px auto;
+}
+.main .main_hint .mh_left{
+    float: left;
+}
+.main .main_hint .mh_left{
+   color: #ef5b00;
+}
+.main .main_hint .mh_right{
+    float: right;
+}
+.main .main_hint .mh_right a{
+    color: #757575;
+}
+.main .main_from  .plaint{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-position: 0 -69px;
+    margin-bottom: -2px;
+}
+fieldset{
+    border: 0;
+}
+.main .other_login{
+    width: 358px;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+.main .other_login .prompt_line{
+    border-top: 1px solid #e0e0e0;
     text-align: center;
+}
+.main .other_login .ic_font{
+    margin: 24px 0;
+    text-align: center;
+}
+.main .other_login .ic_font a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #0288d1;
+    border-radius:50%; 
+    text-align: center;
+    margin: 0 14px;
+}
+.main .other_login .ic_font .icf_qq i{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.main .other_login .ic_font .icf_weibo i{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.main .other_login .ic_font .icf_zhifubao i{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.main .other_login .ic_font .icf_weixin i{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    font-size: 14px;
+    color: #ffffff;
 }
 
 #footer_wrapper{
