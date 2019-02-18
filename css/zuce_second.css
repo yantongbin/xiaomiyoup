@@ -1,0 +1,59 @@
+.main_hint , .main_form , .main_button{
+    width: 330px;
+    margin: 0 auto;
+}
+.main_button input{
+    width: 328px;
+    height: 42px;
+    border: 0;
+    margin: 5px 0;
+}
+.main_title{
+   width: 330px;
+    margin: 10px auto;
+}
+.main_hint p{
+    margin-bottom: 18px;
+    color: #666666;
+}
+.main_form .mf_inp{
+    float: left;
+}
+.main_form .mf_inp #verification_code{
+    width: 210px;
+    height: 40px;
+    border: solid 1px #e8e8e8;
+    padding-left: 10px;
+}
+.main_form .mf_send{
+    width: 101px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: solid 1px #e8e8e8;
+    float: right;
+}
+.main_form .mf_send a{
+    color: #9d9d9d;
+}
+.main_title .mt_title p{
+    height: 20px;
+    font-size: 14px;
+    color: #f66;
+}
+.exclamation_mark{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-position: -49px 0;
+    margin-bottom: -2px;
+    display: none;
+}
+.main_button #mb_next{
+    background-color: #ff6700;
+    border: solid 1px #ea8038;
+}
+.main_button #mb_back{
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+}

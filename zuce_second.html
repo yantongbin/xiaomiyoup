@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/zuce.css">
+    <link rel="stylesheet" href="css/common_second.css">
+    <link rel="stylesheet" href="css/zuce_second.css">
 </head>
 <body>
     <div id="wrapper">
@@ -18,45 +19,29 @@
                 <div class="caption">
                     <h1>注册小米账号</h1>
                 </div>
-                <form action="zuce_second.html" class="menu">
-                    <div class="country">
-                        <div class="headline">
-                            <p>国家/地区</p>
-                        </div>
-                        <div class="input_box clearfix">
-                            <p class="text">中国</p>
-                            <i class="icon_user"></i>
-                        </div>
-                        <div class="hint">
-                            <p>成功注册帐号后，国家/地区将不能被修改</p>
-                        </div>
-                    </div>
-                    <div class="telephone">
-                        <div class="telephone_head">
-                            <p>手机号码</p>
-                        </div>
-                        <div class="input_box">
-                            <p>+86 <i class="icon_user up"></i></p>
-                            <input type="text" name="telephone" id="inp_text" placeholder="请输入手机号" value="">
-                        </div>
-                        <div class="error">
-                            <p>
-                                <i class="icon_user  exclamation_mark"></i>
-                                <span class="error_title"></span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="but">
-                        <button type="submit">立即注册</button>
-                    </div>
-                </form>
-                <div class="privacy_box">
-                    <div class="msgBox">
-                        <label for="" class="lab">
-                            <i class="icon_user check" ></i>
-                            注册帐号即表示您同意并愿意遵守小米<a href="">用户协议</a>和<a href="">隐私政策</a>
-                        </label>
-                    </div>
+                <div class="main_hint">
+                    <p class="mh_receive">我们已经发送一条验证短信至 <span></span></p>
+                    <p class="mh_hint">请输入短信中的验证码</p>
+                </div>
+                <div class="main_form clearfix">
+                    <label class="mf_inp">
+                        <input type="text" name="verification_code" id="verification_code" placeholder="请输入验证码">
+                    </label>
+                    <span class="mf_send">
+                        <a href="###">重新发送</a>
+                    </span>
+                </div>
+                <div class="main_title">
+                   <div class="mt_title">
+                       <p>
+                           <i class="icon_user exclamation_mark"></i>
+                           <span class="title"></span>
+                       </p>
+                   </div>
+                </div>
+                <div class="main_button">
+                    <input type="submit" name="mb_next" id="mb_next" value="下一步">
+                    <input type="button" name="mb_back" id="mb_back" value="返回">
                 </div>
             </div>
         </div>
@@ -100,9 +85,5 @@
                 </div>
         </div>        
     </div>
-    <script src="js/register.js"></script>
-    <script>
-        register.init();
-    </script>
 </body>
 </html>
