@@ -1,0 +1,235 @@
+#header_wrapper{
+    height: 54px;
+    background-color: #333333;
+}
+.header{
+    height: 54px;
+    background-color: #333333;
+}
+.header>ul{
+    float: right;
+    margin-right: 20px;
+}
+.header ul li{
+    float: left;
+    height: 54px;
+    line-height: 54px;
+    font-size: 14px;
+    margin: 0 10px;
+}
+.header ul li a{
+    color: #ededed;
+}
+.header ul li a:hover{
+    color: #ffffff;
+}
+.last_li{
+    position: relative;
+}
+.box{
+    position: absolute;
+    width: 184px;
+    top: 54px;
+    left: -20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.last_li .box li:nth-child(1){
+    float: none;
+    height: 40px;
+    line-height: 40px;
+    z-index: 99999;
+}
+.last_li .box li:nth-child(1) a{
+    color: #949494;
+}
+.last_li .box li:nth-child(2){
+    float: none;
+    z-index: 99999;
+    height: 40px;
+    line-height: 40px;
+}
+.last_li .box li:nth-child(2) a{
+    color: #666666;
+}
+.icon{
+    background: url(../images/icons.png);
+}
+.phone{
+    display: inline-block;
+    width: 15px;
+    height: 24px;
+    background-position: -8px -1022px;
+    position: relative;
+    top: 10px;
+}
+.bottom{
+    position: relative;
+    display: inline-block;
+    width: 12px;
+    height: 7px;
+    background-position:-9px -1504px; 
+    left: 10px;
+
+}
+.header .pry{
+    width: 1px;
+    height: 18px;
+    background-color: #666666;
+    margin-top: 16px;
+}
+#top_wrapper{
+    height: 51px;
+    padding-top: 20px;
+    background-color: #fff;
+    margin-bottom: 16px;
+}
+.top{
+    height: 51PX;
+}
+.top_left{
+    float: left;
+    height: 51px;
+}
+.top_left img{
+    height: 51px;
+}
+.top_center{
+    float: left;
+    height: 51px;
+    line-height: 51px;
+    margin-left: 166px;
+}
+.top_center a{
+    font-size: 20px;
+    margin-right: 38px;
+    color: #666666;
+}
+.top_right{
+    float: left;
+    margin-left: 172px;
+}
+.top_right form{
+    float: left;
+    width: 322px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+}
+.tr_txt{
+    width: 280px;
+    height: 30px;
+    border: 0;
+    border-bottom: solid 1px #e7e7e7;
+    position: absolute;
+    padding-left:42px; 
+}
+::-webkit-input-placeholder{
+    color: #cccccc;
+}
+.shousuo{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    bottom: 10px;
+    border: 0;
+    background-position: -6px -1464px;
+    left: 0;
+    cursor: pointer;
+}
+.shousuo:hover{
+    background-position: -6px -1430px;
+}
+.gouwuche{
+    width: 18px;
+    height: 18px;
+    background-position: -6px -954px;
+    float: left;
+    margin-left: 28px;
+    margin-top: 26px;
+    cursor: pointer;
+}
+.gouwuche:hover{
+    background-position: -6px -1192px;
+}
+#main_wrapper{
+    border-top: 1px solid #e7e7e7;
+}
+.main .main_title{
+    margin: 38px 0;
+}
+.main .main_title .mt_hierarchy::after{
+    content: ">";
+}
+.mt_style{
+    color: #979797;
+}
+.main_show{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.main_show .msc_img{
+    width: 306px;
+    height: 264px;
+    margin: 0 auto;
+    background:url(../images/img/shop_car.png) center no-repeat;
+}
+.main_show .msc_title{
+    margin: 28px 0;
+}
+.main_show .btn_box{
+    display: inline-block;
+    width: 114px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #656565;
+    border: solid 1px #747474;
+}
+.main_show .btn_box:hover{
+    background: #845f3f;
+    border:solid 1px #845f3f;
+    color: #ffffff;
+}
+#navigator_wrapper{
+    min-height: 300px;
+    background-color: #f4f4f4;
+    padding: 48px 0;
+}
+.navigator{
+    width: 1080px;
+    min-height: 300px;
+    margin: 0 auto;
+}
+.navigator_img{
+    margin-top: 16px;
+}
+.navigator_img .ni_box .nib_img{
+    width: 265px;
+    background: #fff;
+    text-align: center;
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+.navigator_img .ni_box .last_img{
+    margin-right: 0;
+}
+.navigator_img .ni_box .nib_img img{
+    width: 195px;
+}
+.navigator_img .ni_box .nibi_hint p{
+    padding: 6px 0;
+}
+.navigator_img .ni_box .nibi_hint p:nth-child(1){
+    color: #343434;
+    font-size: 18px;
+}
+.navigator_img .ni_box .nibi_hint p:nth-child(2){
+    color: #aaaaaa;
+}
+.navigator_img .ni_box .nibi_hint p:nth-child(3){
+    color: #a14d4f;
+    margin-bottom: 10px;
+}
