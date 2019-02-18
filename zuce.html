@@ -18,7 +18,7 @@
                 <div class="caption">
                     <h1>注册小米账号</h1>
                 </div>
-                <form action="" class="menu">
+                <form action="" class="menu" onsubmit="return false">
                     <div class="country">
                         <div class="headline">
                             <p>国家/地区</p>
@@ -37,10 +37,10 @@
                         </div>
                         <div class="input_box">
                             <p>+86 <i class="icon_user up"></i></p>
-                            <input type="text" name="telephone" id="inp_text" placeholder="请输入手机号">
+                            <input type="text" name="telephone" id="inp_text" placeholder="请输入手机号" value="">
                         </div>
                         <div class="error">
-                            <p><i class="icon_user  exclamation_mark"></i>请输入手机号码</p>
+                            <p><i class="icon_user  exclamation_mark"></i><span class="error_title"></span></p>
                         </div>
                     </div>
                     <div class="but">
@@ -97,5 +97,9 @@
                 </div>
         </div>        
     </div>
+    <script src="js/register.js"></script>
+    <script>
+        register.init();
+    </script>
 </body>
 </html>
