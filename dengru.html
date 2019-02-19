@@ -23,7 +23,7 @@
                     <i class="icon code"></i>
                 </div>
                 <div class="main_from">
-                    <form action="">
+                    <form action="" onsubmit="return false;" autocomplete="off">
                         <div class="form_user">
                             <input type="text" name="user" id="user" placeholder="邮箱/手机号码/小米ID">
                         </div>
@@ -33,7 +33,7 @@
                         <div class="form_hint">
                             <p class="p_hint">
                                 <i class="icon plaint"></i>
-                                <span>请输入账号</span>
+                                <span class="sp_st"></span>
                             </p>
                         </div>
                         <div class="form_button">
@@ -110,5 +110,9 @@
             </div>
         </div>          
     </div>
+    <script src="js/dengru.js"></script>
+    <script>
+        dengru.init();
+    </script>
 </body>
 </html>

@@ -96,9 +96,12 @@ html , body{
 .main .main_from  .plaint{
     width: 14px;
     height: 14px;
-    display: inline-block;
+    display: none;
     background-position: 0 -69px;
     margin-bottom: -2px;
+}
+.main .main_from .sp_st{
+    color:#ff6700;
 }
 fieldset{
     border: 0;
