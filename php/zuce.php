@@ -6,5 +6,11 @@
     $row = $coon -> query($sql);
     $result = $row -> fetch_assoc();
     var_dump($result);
+    if($result){
+        $arr = array("code" => "200", "msg" =>"");
+    }else{
+        $arr = array("code" => "1000", "msg" => "注册失败");
+    }
+    echo json_encode($arr);
 
 ?>

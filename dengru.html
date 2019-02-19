@@ -23,7 +23,7 @@
                     <i class="icon code"></i>
                 </div>
                 <div class="main_from">
-                    <form action="" onsubmit="return false;" autocomplete="off">
+                    <form action=""  autocomplete="off", method="POST", id="form">
                         <div class="form_user">
                             <input type="text" name="user" id="user" placeholder="邮箱/手机号码/小米ID">
                         </div>
@@ -111,8 +111,49 @@
         </div>          
     </div>
     <script src="js/dengru.js"></script>
+    <script src="js/getpost.js"></script>
     <script>
-        dengru.init();
+        var $username , $password ,$btn, $icon, $span, $input_user, $input_pwd;
+        // $username = document.querySelector('#user');
+        // $password = document.querySelector('#pwd');  
+        var $form = document.querySelector('#form');
+        $inputUser = document.querySelector('#form #user');
+        $inputPwd = document.querySelector('#form #pwd');
+        $btn = document.querySelector('.btn');
+        $span = document.querySelector('.p_hint span');
+        $icon = document.querySelector('.p_hint .plaint');
+        $btn.onclick = function(e){
+            e = e || window.event;
+            e.preventDefault();
+            sendAjax('php/dengru.php',{
+                method:'post',
+                data: {
+                    username: $form['user'].value,
+                    password: $form['pwd'].value
+                },
+                success(data){
+                    let {code , msg , data:_data} = JSON.parse(data);
+                    if(code == 200){
+                        alert(1111);
+                    }else{
+                        if($inputUser.value ==='' || $inputPwd.value === ''){
+                            dengru.init();        
+                        }else if($inputUser.value.length > 0 && $inputPwd.value.length > 0){
+                            $inputUser.oninput = function(){
+                                $icon.style.display = 'none'
+                                $span.innerHTML =`<span class="sp_st"></span>`
+                            }   
+                            $inputPwd.oninput = function(){
+                                $icon.style.display = 'none'
+                                $span.innerHTML =`<span class="sp_st"></span>`
+                            }   
+                            $icon.style.display = 'inline-block';
+                            $span.innerHTML =`<span class="sp_st">用户名或密码错误</span>`
+                        }
+                    }
+                }
+            })
+        }
     </script>
 </body>
 </html>
