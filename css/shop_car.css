@@ -164,10 +164,12 @@
 .mt_style{
     color: #979797;
 }
+/* 。main——show代码 */
 .main_show{
     text-align: center;
     padding-top: 100px;
     padding-bottom: 200px;
+    display: none;
 }
 .main_show .msc_img{
     width: 306px;
@@ -191,6 +193,137 @@
     background: #845f3f;
     border:solid 1px #845f3f;
     color: #ffffff;
+}
+/* .main_shop代码 商品信息代码*/
+.main_shop .ms_title{
+    height: 50xp;
+    line-height: 50px;
+    background-color: #fafafa;
+}
+.main_shop .mst_check{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-position: 0 -402px;
+    margin-bottom: -6px;
+    margin-left: 7px;
+    margin-right: 20px;
+}
+.main_shop .ms_title span{
+    display: inline-block;
+}
+.main_shop .ms_title .all_txt{
+    width: 120px;
+}
+.main_shop .ms_title .product{
+    width: 320px;
+}
+.main_shop .ms_title .price{
+    width: 210px;
+}
+.main_shop .ms_title .num{
+    width: 214px;
+}
+.main_shop .ms_title .total{
+    width: 122px;
+    margin-right: 120px;
+}
+.msl_title{
+    margin-top: 60px;
+}
+.shop_product{
+    border-top: solid 1px #eaeaea;
+    border-bottom: solid 1px #eaeaea;
+    margin-top: 26px;
+}
+.shop_product div{
+    height: 160px;
+    float: left;
+}
+.main_shop .shop_check{
+    float: left;
+    line-height: 160px;
+}
+.main_shop .shop_img{
+    width: 94px;
+    height: 160px;
+    float: left;
+}   
+.main_shop .shop_img img{
+    width: 94px;
+    height: 114px;
+    margin-top: 28px;
+    display: inline-block;
+}
+.main_shop .shop_message{
+    float: left;
+    line-height: 160px;
+}
+.main_shop .shop_message .sm_title{
+    width: 280px;
+    height: 160px;
+    display: inline-block;
+}
+.main_shop .shop_price{
+    width: 200px;
+    text-align: center;
+    float: left;
+    line-height: 160px;
+}
+.main_shop .shop_num{
+    float: left;
+    text-align: center;
+    margin-left: 20px;
+}
+.main_shop .shop_num .sn_box{
+    width: 160px;
+    height: 38px;
+    border: solid 1px #bababa;
+    text-align: center;
+    margin-top: 60px;
+}
+.main_shop .shop_num .shop_reduct{
+    width: 36px;
+    height: 38px;
+    border-right: solid 1px #bababa;
+    float: left;
+}
+.icon_reduct{
+    background-position:0 -1355px; 
+}
+.icon_add{
+    background-position:0 -1049px; 
+}
+.main_shop .shop_num .snb_box{
+    width: 85px;
+    height: 38px;
+    line-height: 38px;
+    float: left;
+}
+.main_shop .shop_num .shop_add{
+    width: 36px;
+    height: 38px;
+    border-left: solid 1px #bababa;
+    float: left;
+}
+.main_shop .shop_total{
+    width: 52px;
+    margin-left: 120px;
+    float: left;
+    line-height: 160px;
+}
+.main_shop .shop_del{
+    width: 52px;
+    text-align: center;
+    float: left;
+    margin-left: 200px;
+    line-height: 160px;
+}
+.main_shop .delete{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-position: 0 -358px;
 }
 #navigator_wrapper{
     min-height: 300px;
