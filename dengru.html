@@ -134,7 +134,7 @@
                 success(data){
                     let {code , msg , data:_data} = JSON.parse(data);
                     if(code == 200){
-                        alert(1111);
+                        location.href = 'index.html';                            
                     }else{
                         if($inputUser.value ==='' || $inputPwd.value === ''){
                             dengru.init();        

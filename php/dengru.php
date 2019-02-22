@@ -10,7 +10,7 @@
     $row = $coon -> query($sql);
     $result = $row -> fetch_assoc();
     if($result){
-        $arr = array("code" => "200", "msg" =>"", data =>array("name" => $result['username']));
+        $arr = array("code" => "200", "msg" =>"");
     }else{
         $arr = array("code" => "1000" , "msg" => "用户名或密码输入错误" , "data" => array());
     }
